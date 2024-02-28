@@ -1,0 +1,105 @@
+.head{
+    background-color: #1b1b1b;
+    height: 150vh;
+    top: 30px;
+    position: relative;
+}
+
+.head h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* padding: 20px; */
+    font-size: 3vh;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+    top: 10vh;
+    position: relative;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,340px);
+    height: 110vh;
+    /* background: #2a2a2a; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15vh;
+}
+.projects{
+    background: white;
+    border-radius: 17px;
+    margin-left: 52px;
+    /* margin-top: 30px; */
+    box-shadow: -13px 18px 30px 2px #000000;
+    transform: scale(1);
+    transition: transform .5s;
+}
+.projects:hover{
+    transform: scale(1.1);
+}
+.projects img{
+    width: 18rem;
+    height: 30vh;
+}
+.project-body{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.project-body h5{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.project-body img{
+    height: 18px;
+    width: 18px;
+    margin: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo i{
+    margin: 10px;
+    color: #3F3F3F;
+}
+
+@media only screen and (max-width: 1200px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(2,450px);
+    }
+    .projects{
+        width: 35vh;
+        /* margin: -24px; */
+        margin-bottom: 60px;
+    }
+    .projects img{
+        width: 35vh;
+    }
+    .logo img{
+        height: 20px;
+        width: 20px;
+    }
+
+}
+@media only screen and (max-width: 860px){
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1,415px);
+        height: 250vh;
+    }
+    .projects{
+        left: 5%;
+        position: relative;
+    }
+}

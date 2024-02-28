@@ -1,0 +1,71 @@
+.social{
+    top: 100vh;
+    position: relative;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.social h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    /* padding: 20px; */
+    font-size: 3vh;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+
+    position: relative;
+}
+.media{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    margin-left: 3px;
+    position: relative;
+    top: 3vh;
+
+}
+.media span{
+    margin: 10px;
+    color: #bbbbbb;
+    font-size: 18px;
+}
+.media a{
+    color: white;
+    text-decoration: none;
+}
+.media-1{
+    margin: 10px;
+}
+.media-1 i{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    .social{
+        top: 217vh;
+    }
+    .media{
+        display: grid;
+        grid-template-columns: repeat(3,115px);
+        margin-left: 3px;
+        position: relative;
+        top: 3vh;
+    
+    }
+    .media span{
+        margin: 10px;
+        color: #bbbbbb;
+        font-size: 12px;
+    }
+    .media a{
+        color: white;
+        text-decoration: none;
+    }
+    .media-1{
+        margin: 12px;
+    }
+}

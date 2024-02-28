@@ -1,0 +1,108 @@
+.work-exp{
+    top: 57vh;
+    position: relative;
+}
+.exp h3{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 3vh;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 300;
+    font-style: normal;
+    top: 10vh;
+    position: relative;;
+}
+.exp-1{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    top: 20vh;
+    position: relative;
+    float: right;
+    left: -30vh;
+    align-items: center;
+    background: #262626;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 18px 30px 0px black;
+    margin: 10px;
+}.exp-2{
+    color: white;
+    display: grid;
+    right: -33vh;
+    align-items: center;
+    grid-template-columns: repeat(2,500px);
+    top: 30vh;
+    position: relative;
+    float: left;
+    background: #262626;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 18px 30px 0px black;
+    margin: 10px;
+}
+.exp-1 span{
+    width: 20vh;
+    left: 39vh;
+    position: relative;
+}.exp-2 span{
+    width: 20vh;
+    left: 39vh;
+    position: relative;
+}
+.exp-1 p{
+    width: 110vh;
+    margin-top: 20px;
+}.exp-2 p{
+    width: 110vh;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 480px){
+    .work-exp{
+        top: 190vh;
+        position: relative;
+    }
+    .exp-1{
+        width: 40vh;
+        height: 25vh;
+        top: 17vh;
+        left: -20px;
+    }    .exp-2{
+        width: 40vh;
+        height: 25vh;
+        top: 17vh;
+        right: -2vh;
+    }
+    .exp-1 p{
+        width: 35vh;
+        font-size: 12px;
+        color: #bbbbbb;
+    }.exp-2 p{
+        width: 35vh;
+        font-size: 12px;
+        color: #bbbbbb;
+    }
+    .exp-1 h5{
+        font-size: 13px;
+        width: 15vh;
+    }.exp-2 h5{
+        font-size: 13px;
+        width: 15vh;
+    }
+    .exp-1 span{
+        left: -45vh;
+        font-size: 12px;
+        color: #bbbbbb;
+        width: 15vh;
+    }.exp-2 span{
+        left: -45vh;
+        font-size: 12px;
+        color: #bbbbbb;
+        width: 15vh;
+    }
+
+}

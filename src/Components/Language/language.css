@@ -1,0 +1,82 @@
+.Lang {
+  /* background: #1b1b1b; */
+  height: 42vh;
+}
+.head-1 {
+  display: grid;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px; */
+  font-size: 5vh;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 300;
+  font-style: normal;
+  top: 10vh;
+  position: relative;
+}
+.head-1 h3 {
+  text-align: center;
+  font-size: 3vh;
+}
+.tech {
+  background: #272727;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -8px 8px 30px 5px #000000;
+  margin: 40px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+.tech:hover {
+  transform: scale(1.2);
+}
+.tech img {
+  height: 35px;
+  width: 35px;
+}
+.stuff {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  padding-top: 70px;
+}
+
+@media only screen and (max-width: 1200px){
+    .Lang{
+        position: relative;
+        top: 30vh;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .Lang{
+        position: relative;
+        top: 160vh;
+    }
+    .stuff{
+        display: grid;
+        grid-template-columns: repeat(4, 140px);
+    }
+}
+@media only screen and (max-width: 550px){
+    .stuff{
+        display: grid;
+        grid-template-columns: repeat(4,110px);
+    }
+}
+@media only screen and (max-width: 415px){
+    .stuff{
+        display: grid;
+        grid-template-columns: repeat(4,90px);
+    }
+    .tech{
+        height: 55px;
+        width: 55px;
+        margin: 30px;
+    }
+}
