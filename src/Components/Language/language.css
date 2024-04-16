@@ -46,37 +46,37 @@
   padding-top: 70px;
 }
 
-@media only screen and (max-width: 1200px){
-    .Lang{
-        position: relative;
-        top: 30vh;
-    }
+@media only screen and (max-width: 1200px) {
+  .Lang {
+    position: relative;
+    top: 30vh;
+  }
 }
 
-@media only screen and (max-width: 860px){
-    .Lang{
-        position: relative;
-        top: 160vh;
-    }
-    .stuff{
-        display: grid;
-        grid-template-columns: repeat(4, 140px);
-    }
+@media only screen and (max-width: 860px) {
+  .Lang {
+    position: relative;
+    top: 150vh;
+  }
+  .stuff {
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+  }
 }
-@media only screen and (max-width: 550px){
-    .stuff{
-        display: grid;
-        grid-template-columns: repeat(4,110px);
-    }
+@media only screen and (max-width: 550px) {
+  .stuff {
+    display: grid;
+    grid-template-columns: repeat(4, 110px);
+  }
 }
-@media only screen and (max-width: 415px){
-    .stuff{
-        display: grid;
-        grid-template-columns: repeat(4,90px);
-    }
-    .tech{
-        height: 55px;
-        width: 55px;
-        margin: 30px;
-    }
+@media only screen and (max-width: 415px) {
+  .stuff {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+  }
+  .tech {
+    height: 55px;
+    width: 55px;
+    margin: 30px;
+  }
 }

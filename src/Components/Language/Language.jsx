@@ -46,7 +46,7 @@ export default function Language() {
             <img src="./images/mui.png" alt="" />
           </div>
           <div className="tech">
-            <img src="./images/redux-2.png" alt="" />
+            <img src="./images/redux.png" alt="" />
           </div>
         </div>
       </div>
