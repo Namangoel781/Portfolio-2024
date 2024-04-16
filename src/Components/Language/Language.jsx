@@ -7,25 +7,31 @@ export default function Language() {
         <h3>Tech Stack I know</h3>
         <div className="stuff">
           <div className="tech">
-          <img src="./images/react.png" alt="" />
+            <img src="./images/react.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/python.png" alt="" />
+            <img src="./images/node.js.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/js-1.png" alt="" />
+            <img src="./images/mongo.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/css-1.png" alt="" />
+            <img src="./images/python.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/html (2).png" alt="" />
+            <img src="./images/js-1.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/sql.png" alt="" />
+            <img src="./images/css-1.png" alt="" />
           </div>
           <div className="tech">
-          <img src="./images/bootstrap.png" alt="" />
+            <img src="./images/html (2).png" alt="" />
+          </div>
+          <div className="tech">
+            <img src="./images/sql.png" alt="" />
+          </div>
+          <div className="tech">
+            <img src="./images/bootstrap.png" alt="" />
           </div>
           <div className="tech">
             <img src="./images/dj-1.png" alt="" />
@@ -35,6 +41,12 @@ export default function Language() {
           </div>
           <div className="tech">
             <img src="./images/firebase.png" alt="" />
+          </div>
+          <div className="tech">
+            <img src="./images/mui.png" alt="" />
+          </div>
+          <div className="tech">
+            <img src="./images/redux-2.png" alt="" />
           </div>
         </div>
       </div>

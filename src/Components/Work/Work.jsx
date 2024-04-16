@@ -9,7 +9,7 @@ export default function Work() {
             
             <div className="exp-1">
                 <h5>FullStack Developer</h5>
-                <span>NetcoreInfo <br />Dec 2023 - Feb 2023</span>
+                <span>NetcoreInfo <br />Dec 2023 - Feb 2024</span>
                 <p>Building the product from scratch by using Django, Python, MySQL, Rest API and other useful tools. Actively involved in the implementation and enhancement of this web application.</p>
             </div>
             </div>
